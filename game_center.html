@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="static/css/common.css" />
+    <link rel="stylesheet" href="static/css/game_center.css">
+</head>
+
+<body class="w974">
+    <!--头部-->
+    <div class="header">
+        <!--top-->
+        <div class="hd-top">
+            <div class="w1000 w1200 fix">
+                <div class="hd-left fl">
+                    <div class="home-opt">
+                        <a href="javascript:winSetHP();">设为首页</a> &nbsp;|&nbsp;
+                        <a href="javascript:winAddFav();">收藏</a>
+                    </div>
+                    <div class="home-search">
+                        <div class="__data__" data_id="__data__[79552]" page="" postfix="index" style="display: none; ">
+                            <div></div>
+                            <span>搜索推荐</span>
+                        </div>
+                        <form method="get" action="http://wvw.9377.com/game_center.php" target="_blank" id="top-search-form" onSubmit="return topBarSearch();">
+                            <input class="search-txt" type="text" name="q" placeholder="搜索游戏" autocomplete="off" id="top-search-val">
+                            <input class="search-btn" type="submit" value="" id="top-search-btn">
+                        </form>
+                        <div class="search-rem none" id="search-rem">
+                            <ul class="list">
+                                <li>
+                                    <div class="a">赤月传说Ⅱ</div>
+                                    <div class="b">
+                                        <a href="" target="_blank" class="img">
+                                            <img src="static/img/index/cycs2.jpg">
+                                        </a>
+                                        <div class="info fl">
+                                            <a href="" target="_blank" class="name">赤月传说Ⅱ</a>
+                                            <a href="" target="_blank" class="btn-play">进入游戏</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="a">雷霆之怒</div>
+                                    <div class="b">
+                                        <a href="" target="_blank" class="img">
+                                            <img src="static/img/index/lt2.jpg-20180608185752.jpg">
+                                        </a>
+                                        <div class="info fl">
+                                            <a href="" target="_blank" class="name">雷霆之怒</a>
+                                            <a href="" target="_blank" class="btn-play">进入游戏</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="a">攻铩</div>
+                                    <div class="b">
+                                        <a href="index-2.htm" target="_blank" class="img">
+                                            <img src="static/img/index/gongsha.jpg">
+                                        </a>
+                                        <div class="info fl">
+                                            <a href="index-2.htm" target="_blank" class="name">攻铩</a>
+                                            <a href="index-3.htm" target="_blank" class="btn-play">进入游戏</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="a">屠龙战记</div>
+                                    <div class="b">
+                                        <a href="index-4.htm" target="_blank" class="img">
+                                            <img src="static/img/index/tulong.jpg-20180608185752.jpg">
+                                        </a>
+                                        <div class="info fl">
+                                            <a href="index-4.htm" target="_blank" class="name">屠龙战记</a>
+                                            <a href="index-5.htm" target="_blank" class="btn-play">进入游戏</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="a">皇图</div>
+                                    <div class="b">
+                                        <a href="" target="_blank" class="img">
+                                            <img src="static/img/index/ht.jpg-20180608185752.jpg">
+                                        </a>
+                                        <div class="info fl">
+                                            <a href="" target="_blank" class="name">皇图</a>
+                                            <a href="" target="_blank" class="btn-play">进入游戏</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hd-right fr">
+                    <div class="top-user-mod">
+                        <div class="nologin">
+                            <a href="" rel="nofollow" class="item to-login">
+                                <i></i>登录</a>
+                            <a href="" rel="nofollow" class="item to-reg">
+                                <i></i>注册</a>
+                        </div>
+                        <div class="logined none">
+                            <div class="user-vip-wp">
+                                <a class="item user-vip" href="" target="_blank">
+                                    <i class="user-vip-level"></i>
+                                    <em>0</em>
+                                </a>
+                                <a class="item user-name" href="" target="_blank"></a>
+                                <div class="vip-box none">
+                                    <div class="hd">
+                                        <i class="c"></i>
+                                        <em class="vip">
+                                            <i>VIP1</i>
+                                        </em>
+                                        <a href="" target="_blank" class="fl">什么是VIP等级？</a>
+                                        <a href="" target="_blank" class="fr">提升VIP></a>
+                                    </div>
+                                    <div class="bd">
+                                        <div class="vitem vitem-1">
+                                            <a href="" target="_blank">【获得】</a>
+                                            <i></i> 积分：
+                                            <span class="user-credit"></span>
+                                        </div>
+                                        <div class="vitem vitem-2">
+                                            <a href="" target="_blank">【充值】</a>
+                                            <i></i> 游戏币：
+                                            <span class="user-coin"></span>
+                                        </div>
+                                        <div class="vitem vitem-3">
+                                            <a href="" target="_blank">【提升】
+                                            </a>
+                                            <i></i> 安全等级：
+                                            <span class="user-slevel"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="item user-logout" href="">[退出]</a>
+                            <em class="gap">|</em>
+                            <div class="user-msg-wp">
+                                <a class="item user-msg" href="">消息
+                                    <i></i>
+                                </a>
+                                <div class="msg-box none">
+                                    <i class="c"></i>
+                                    <div class="data none">
+                                        <div class="hd"></div>
+                                        <div class="bd"></div>
+                                        <a href="" target="_blank" class="all">查看全部消息&gt;&gt;</a>
+                                    </div>
+                                    <div class="nomsg none">
+                                        <img src="static/img/index/nodata.jpg" alt="">
+                                        <p>暂时没有新消息了！</p>
+                                        <a href="" target="_blank" class="all">查看全部消息&gt;&gt;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-game-wp">
+                        <a href="javascript:;" class="item all-game-btn">全部游戏
+                            <i></i>
+                        </a>
+                        <div class="all-game-box none">
+                            <div class="__data__" data_id="__data__[80428]" page="" postfix="index" style="display: none; ">
+                                <div></div>
+                                <span>2017顶部所有游戏</span>
+                            </div>
+                            <ul class="all-game-img">
+                                <li>
+                                    <a href="index-2.htm" target="_blank">
+                                        <img src="static/img/index/gongsha-1.jpg">
+                                        <p class="txt">9377《小志传奇》》是2017年正版授权的传奇题材页游。经典攻城战携“双职业玩法”强势回归！单人群战、英雄合击缔造更强战力、细腻微操突破战力禁锢。玩传奇，只为攻沙！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/cycs2-1.jpg">
+                                        <p class="txt">9377《赤月传说Ⅱ》由9377游戏自主研发，传承了经典玩法，跨服PK，万人攻城战；战法牧铁三角组合，带给您原汁原味的PK体验</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/lt2-1.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《雷霆之怒》是玩家喜爱的即时战斗类网页游戏，给你强力的打击操作和好玩的热血PK。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-4.htm" target="_blank">
+                                        <img src="static/img/index/tulong-1.jpg-20180608185752.jpg">
+                                        <p class="txt">自动释放技能和创新的合击技玩法让玩家体验到高质量的战斗和pk。丰富多样的装备，特效绚丽的技能，酣畅淋漓的战斗一定会让你有绝佳的体验。来吧，与兄弟并肩作战！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/cqss.jpg">
+                                        <p class="txt">9377《传奇盛世》是一款东方魔幻风格的即时战斗类页游，装备丰富多样，技能特效绚丽，操作手感爽快，升级、抢BOSS、打装备、与兄弟并肩作战。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/ht-1.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《皇图》是一款以春秋战国为历史背景的即时战斗ARPG网页游戏，游戏通过丰富的战国历史剧情和逼真还原的历史场景，大程度地还原战国时期诸侯争霸的震撼场面。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/lanyue.jpg">
+                                        <p class="txt">自动释放技能和创新的合击技玩法让玩家体验到高质量的战斗和pk。丰富多样的装备，特效绚丽的技能，酣畅淋漓的战斗一定会让你有绝佳的体验。来吧，与兄弟并肩作战！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/hd.jpg">
+                                        <p class="txt">9377《寒刀》是一款满载武侠情怀的ARPG网页游戏精品，以为无上观复仇、为江湖武林铲除鬼煞宗这一邪恶势力为游戏剧情主线，生动谱写江湖中的恩怨情仇，侠义直肠，为你倾力打造一个真实的江湖武林，展现一个恢弘的武侠世界</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/my.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《魅影传说》是一款以秦、汉、唐历史为背景的即时战斗ARPG网页游戏，以跨时空的混战、皇城的争夺为线索，展现大气磅礴的历史长河画幅。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-6.htm" target="_blank">
+                                        <img src="static/img/index/nitian.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《逆火战神》是一款即时战斗类ARPG游戏，采用微端技术，支持客户端秒下载。游戏拥有玄兽、血脉、骑宠等特色系统，更有全新推出荒岛求生吃鸡新玩法。这里有你想要的激情，快来体验吧!</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-7.htm" target="_blank">
+                                        <img src="static/img/index/jianling.jpg">
+                                        <p class="txt">9377剑灵洪门崛起是一款纯3D即时战斗微端网游，拥有丰富的剧情任务，细腻的游戏画面和畅爽的战斗快感。游戏开创性地加入了大量特色系统和新的交互玩法，10V10的战场竞技和各具特色的Boss挑战，让玩家可以获得大型MMORPG的游戏体验！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-8.htm" target="_blank">
+                                        <img src="static/img/index/mir2.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《刺沙》以传奇为核心，独创国战玩法，在游戏玩法上独具匠心，操作易上手，丰富的PVE，跨服PVP，使活动与副本相结合，打造逼真震撼的场景效果，呈现超炫的世界。这一次为传奇正名！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/ly.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《烈焰》是2013年受瞩目的即时战斗类网页游戏，丰富多彩的游戏PK体验！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/cycs.jpg">
+                                        <p class="txt">9377《赤月传说》是一款即时战斗类MMORPG微客户端游戏，超炫的装备、超酷的灵兽和坐骑、火爆公平亲民化的活动、丰富多样的副本体验、无延迟无卡刀的Pk还你原始的激情！</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-9.htm" target="_blank">
+                                        <img src="static/img/index/rongyao.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《传奇荣耀》是一款传奇题材即时战斗网页游戏，延续传奇经典，打造散人天堂。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-10.htm" target="_blank">
+                                        <img src="static/img/index/woool.jpg-20180608185752.jpg">
+                                        <p class="txt">9377《传奇世界》是一款ARPG角色扮演类网页游戏。宏大的世界观，将上古神话背景与游戏体验做了完美的结合，只有不断历练自己才能通过各种挑战，顺利击杀精英、逼退对手，获得珍稀奖励、给力装备，为征战之途做好万全的准备。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="static/img/index/lhzs.jpg-20180608185752.jpg">
+                                        <p class="txt">9377烈火战神是一款注重Pk的即时战斗网页游戏，融入微端技术秒下载，烈火战神炫翅膀,丰富副本,独家礼包发放，邀你体验团队多人在线PK的震撼。</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-11.htm" target="_blank">
+                                        <img src="static/img/index/liangshan.jpg-20180608185752.jpg">
+                                        <p class="txt">自动释放技能和创新的合击技玩法让玩家体验到高质量的战斗和pk。丰富多样的装备，特效绚丽的技能，酣畅淋漓的战斗一定会让你有绝佳的体验。来吧，与兄弟并肩作战！</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <dl class="all-game-list fix">
+                                <dt>
+                                    <em>
+                                        <i class="icon-new"></i> 新游</em>
+                                    <em>
+                                        <i class="icon-hot"></i> 火爆</em> 热门游戏 </dt>
+                                <dd>
+                                    <a href="index-2.htm" target="_blank">
+                                        攻铩
+                                        <i class="icon-hot"></i>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        赤月传说Ⅱ
+                                        <i class="icon-hot"></i>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        雷霆之怒
+                                        <i class="icon-hot"></i>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="index-4.htm" target="_blank">
+                                        屠龙战记
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        传奇盛世
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        皇图
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        蓝月传奇
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        寒刀
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank">
+                                        魅影传说
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="index-6.htm" target="_blank">
+                                        逆天邪神
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="index-7.htm" target="_blank">
+                                        剑灵洪门崛起
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="index-8.htm" target="_blank">
+                                        刺沙
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="" target="_blank">
+                                        烈焰
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="" target="_blank">
+                                        赤月传说
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="index-9.htm" target="_blank">
+                                        传奇荣耀
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="index-10.htm" target="_blank">
+                                        传奇世界
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="" target="_blank">
+                                        烈火战神
+                                    </a>
+                                </dd>
+                                <dd class="sitem">
+                                    <a href="index-11.htm" target="_blank">
+                                        梁山传奇
+                                        <i class="icon-new"></i>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="" target="_blank" class="more">更多游戏+</a>
+                                </dd>
+                            </dl>
+                            <dl class="all-game-tool">
+                                <div class="__data__" data_id="__data__[80434]" page="" postfix="index" style="display: none; ">
+                                    <div></div>
+                                    <span>顶栏游戏工具</span>
+                                </div>
+                                <dt>游戏工具</dt>
+                                <dd>
+                                    <a href="index-12.htm" target="_blank">
+                                        <img src="static/img/index/ffd2af4b922d2f1e.jpg" alt="游戏魔盒" title="游戏魔盒" width="60" height="60" />
+                                        <p>游戏魔盒</p>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="index-13.htm" rel="nofollow" target="_blank">
+                                        <img src="static/img/index/1d8cc7a5df62cdc5.jpg" alt="9377游戏保镖" title="9377游戏保镖" width="60" height="60" />
+                                        <p>9377游戏保镖</p>
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="safe-mod-wp none">
+                        <div class="safe-mod safe-mod-idc none">
+                            <a href="javascript:;" class="close"></a>
+                            <div class="hd">
+                                <i></i>您的账号尚未完善身份证信息</div>
+                            <div class="bd">
+                                <p>身份证信息是判断账号归属的重要依据，为了您</p>
+                                <p>的账号安全，请尽快完善！</p>
+                                <a href="" target="_blank" opt="idc" class="go">完善信息</a>
+                            </div>
+                        </div>
+                        <div class="safe-mod safe-mod-phone none">
+                            <a href="javascript:;" class="close"></a>
+                            <div class="hd">
+                                <i></i>您尚未完绑定密保手机</div>
+                            <div class="bd">
+                                <p>绑定手机可用于忘记密码或者账号被盗时</p>
+                                <p>快速重置密码</p>
+                                <a href="" target="_blank" opt="phone" class="go">绑定手机</a>
+                            </div>
+                        </div>
+                        <div class="safe-mod safe-mod-info none">
+                            <a href="javascript:;" class="close"></a>
+                            <div class="hd">
+                                <i></i>您尚未完完善个人资料</div>
+                            <div class="bd">
+                                <p>完善账号的个人资料，提高账号安全度，</p>
+                                <p>做完美的人!</p>
+                                <a href="" target="_blank" opt="info" class="go">完善信息</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航条-->
+        <div class="hd-menu index-hd-menu">
+            <div class="w1000 w1200 fix">
+                <h1 class="logo">
+                    <a href="index.htm">
+                        <img src="static/img/index/logo.png-20180608185752.png" alt="网页游戏" title="网页游戏" />
+                    </a>
+                </h1>
+                <ul class="menu">
+                    <li>
+                        <a href="index.htm">
+                            <span>首页</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" rel="nofollow">
+                            <span>用户中心</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>找游戏</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-14.htm" target="_blank">
+                            <span>礼包</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" rel="nofollow">
+                            <span>充值中心</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" rel="nofollow">
+                            <span>商城</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-15.htm" target="_blank" rel="nofollow">
+                            <span>客服</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <!-- <li><a href="http://bbs.9377.com/" target="_blank"><span>论坛</span><i></i></a></li> -->
+                    <li>
+                        <a href="" target="_blank">
+                            <span>手游</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-16.htm" target="_blank">
+                            <span>开服</span>
+                            <i></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--主体内容-->
+    <div class="g-container fix">
+        <div class="w1000 w1200 gamecenter-main">
+            <div id="main1" class="main fix">
+                <div class="slide-wrap">
+                    <ul class="description-wrap">
+                        <li class="active">
+                            <h4>图片1</h4>
+                            <p>啦啦啦啦啦绿</p>
+                        </li>
+                        <li>
+                            <h4>图片2</h4>
+                            <p>啦啦啦啦啦绿</p></li>
+                        <li>
+                            <h4>图片3</h4>
+                            <p>啦啦啦啦啦绿</p></li>
+                        <li>
+                            <h4>图片4</h4>
+                            <p>啦啦啦啦啦绿</p></li>
+                        <li>
+                            <h4>图片5</h4>
+                            <p>啦啦啦啦啦绿</p></li>
+                    </ul>
+                    <ul class="slideimg-wrap">
+                        <li class="show">
+                            <a href="">
+                                <img src="static/img/game_center/1.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="static/img/game_center/2.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="static/img/game_center/3.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="static/img/game_center/4.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="static/img/game_center/5.jpg"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hotgamelist">
+                     <div class="title">
+                         <span>热门游戏排行</span>
+                     </div>
+                     <ul class="gamelist">
+                        <li>
+                            <i class="nums nums1">1</i>
+                            <a href="" class="img-icon">
+                                <img src="static/img/game_center/hoticon1.jpg"/>
+                            </a>
+                            <div class="info">
+                                <a class="gamename">攻铩</a>
+                                <span class="gamedescription">角色扮演</span>
+                            </div>
+                            <a href="" class="rutor-game">进入游戏</a>
+                        </li>
+                         <li>
+                             <i class="nums nums2">2</i>
+                             <a href="" class="img-icon">
+                                 <img src="static/img/game_center/hoticon2.jpg"/>
+                             </a>
+                             <div class="info">
+                                 <a class="gamename">攻铩</a>
+                                 <span class="gamedescription">角色扮演</span>
+                             </div>
+                             <a href="" class="rutor-game">进入游戏</a>
+                         </li>
+                         <li>
+                             <i class="nums nums3">3</i>
+                             <a href="" class="img-icon">
+                                 <img src="static/img/game_center/hoticon3.jpg"/>
+                             </a>
+                             <div class="info">
+                                 <a class="gamename">攻铩</a>
+                                 <span class="gamedescription">角色扮演</span>
+                             </div>
+                             <a href="" class="rutor-game">进入游戏</a>
+                         </li>
+                         <li>
+                             <i class="nums nums4">4</i>
+                             <a href="" class="img-icon">
+                                 <img src="static/img/game_center/hoticon4.jpg"/>
+                             </a>
+                             <div class="info">
+                                 <a class="gamename">攻铩</a>
+                                 <span class="gamedescription">角色扮演</span>
+                             </div>
+                             <a href="" class="rutor-game">进入游戏</a>
+                         </li>
+                         <li>
+                             <i class="nums nums5">5</i>
+                             <a href="" class="img-icon">
+                                 <img src="static/img/game_center/hoticon5.jpg"/>
+                             </a>
+                             <div class="info">
+                                 <a class="gamename">攻铩</a>
+                                 <span class="gamedescription">角色扮演</span>
+                             </div>
+                             <a href="" class="rutor-game">进入游戏</a>
+                         </li>
+                     </ul>
+                </div>
+            </div>
+            <div id="main2" class="main">
+                <div class="hot-game">
+                    <div class="hd">
+                        <h3 class="hd-title">
+                            <span>热门游戏</span>
+                        </h3>
+                    </div>
+                    <div class="bd">
+                        <ul class="bd-hotgamelist fix">
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">赤月传说Ⅱ</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="img">
+                                    <img src="static/img/game_center/e35b047ff4d4f501.jpg"/>
+                                </a>
+                                <div class="info">
+                                    <a href="" class="game-name">攻铩</a>
+                                    <a href="" class="go">进入游戏</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--底部-->
+    <div class="footer">
+        <div class="w1000 w1200">
+            <div class="links-box">
+                <!--推荐游戏-->
+                <div class="remgame-box">
+                    <div class="links-list">
+                        <span>推荐游戏：</span>
+                        <div class="lbox">
+                            <a href="index-2.htm" target="_blank">攻铩</a>
+                            <a href="" target="_blank">赤月传说Ⅱ</a>
+                            <a href="index-4.htm" target="_blank">屠龙战记</a>
+                            <a href="" target="_blank">雷霆之怒</a>
+                            <a href="index-7.htm" target="_blank">剑灵洪门崛起</a>
+                            <a href="" target="_blank">皇图</a>
+                            <a href="" target="_blank">烈焰</a>
+                            <a href="" target="_blank">蓝月传奇</a>
+                            <a href="" target="_blank">魅影传说</a>
+                            <a href="" target="_blank">寒刀</a>
+                            <a href="" target="_blank">赤月传说</a>
+                            <a href="index-11.htm" target="_blank">梁山传奇</a>
+                            <a href="index-10.htm" target="_blank">传奇世界</a>
+                            <a href="index-9.htm" target="_blank">传奇荣耀</a>
+                            <a href="index-18.htm" target="_blank">仙语巨鲲</a>
+                            <a href="" target="_blank">传奇盛世</a>
+                            <a href="" target="_blank">九阴绝学</a>
+                            <a href="" target="_blank">屠龙传说</a>
+                            <a href="" target="_blank">魔龙之戒</a>
+                            <a href="" target="_blank">天书世界</a>
+                            <a href="" target="_blank">斗破苍穹2</a>
+                            <a href="index-6.htm" target="_blank">逆天邪神</a>
+                            <a href="" target="_blank">红月传说</a>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="more"></a>
+                </div>
+
+                <!--友情链接-->
+                <div class="friends-box">
+                    <div class="links-list">
+                        <span>友情链接：</span>
+                        <div class="lbox">
+                            <a href="index.htm" target="_blank">网页游戏</a>
+                            <a href="" target="_blank">9377手游</a>
+                            <a href="" target="_blank">360游戏</a>
+                            <a href="" target="_blank">265G网页游戏</a>
+                            <a href="" target="_blank">好看的动漫</a>
+                            <a href="" target="_blank">太平洋页游</a>
+                            <a href="" target="_blank">腾讯游戏</a>
+                            <a href="" target="_blank">2144小游戏</a>
+                            <a href="" target="_blank">A9VG</a>
+                            <a href="" target="_blank">9K9K开服表</a>
+                            <a href="" target="_blank">百度游戏</a>
+                            <a href="" target="_blank">快吧游戏</a>
+                            <a href="" target="_blank">游戏交易平台</a>
+                            <a href="" target="_blank">王者荣耀</a>
+                            <a href="" target="_blank">手游交易</a>
+                            <a href="" target="_blank">网页游戏开服表</a>
+                            <a href="" target="_blank">开服网</a>
+                            <a href="" target="_blank">单机游戏</a>
+                            <a href="" target="_blank">安卓游戏下载</a>
+                            <a href="" target="_blank">女生小游戏大全</a>
+                            <a href="" target="_blank">当易网</a>
+                            <a href="index-16.htm" target="_blank">页游开服表</a>
+                            <a href="index-27.htm" target="_blank">散人传说</a>
+                            <a href="" target="_blank">喜爱下载网</a>
+                            <a href="" target="_blank">租号玩</a>
+                            <a href="" target="_blank">软件盒子</a>
+                            <a href="" target="_blank">行业网</a>
+                            <a href="" target="_blank">小游戏</a>
+                            <a href="" target="_blank">网页游戏开服表</a>
+                            <a href="" target="_blank">手机游戏下载</a>
+                            <a href="" target="_blank">163网盘</a>
+                            <a href="" target="_blank">公益服手游</a>
+                            <a href="" target="_blank">游戏试玩</a>
+                            <a href="" target="_blank">10339手游网</a>
+                            <a href="" target="_blank">杭州分类信息</a>
+                            <a href="" target="_blank">爪游控</a>
+                            <a href="" target="_blank">苹果APP下载</a>
+                            <a href="" target="_blank">精眼明在线漫画</a>
+                            <a href="" target="_blank">哒哒加速器</a>
+                            <a href="" target="_blank">安卓模拟器</a>
+                            <a href="" target="_blank">H5游戏</a>
+                            <a href="" target="_blank">西西游戏网</a>
+                            <a href="" target="_blank">任玩堂手机游戏</a>
+                            <a href="" target="_blank">yoyou下载</a>
+                            <a href="" target="_blank">3355小游戏</a>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="more"></a>
+                </div>
+            </div>
+
+            <div class="coinfo">
+                <a href="index.htm" title="网页游戏" class="logo fl">
+                    <img src="static/img/index/logo.png-20180608185752.png" width="100" />
+                </a>
+                <div class="info fl">
+
+                    <div class="about">
+                        <a href="" rel="nofollow" target="_blank">关于我们</a>
+                        <a href="yhxy.html" rel="nofollow" target="_blank">用户协议</a>
+                        <a href="" rel="nofollow" target="_blank">友情链接联系</a>
+                        <a href="index-15.htm" rel="nofollow">客服中心</a>
+                        <a href="index-25.htm" rel="nofollow" target="_blank">家长监护</a>
+                    </div>
+
+                    <div class="copyright">
+                        <p>
+                            上海誉点信息技术有限公司<a href="" rel="nofollow" target="_blank">沪网文【2018】2322-167号</a> 沪ICP备14052946号-5
+                        </p>
+                        <p>
+                            电子邮箱：<a href="mailto:wlwh@vip.sina.com" rel="nofollow">wlwh@vip.sina.com</a>
+                            <span class="col1 ml10">适龄提示：适合18岁以上使用</span>
+                        </p>
+                        <p style="color:#a1a1a1;margin-top: 10px;">
+                            抵制不良网页游戏，拒绝盗版游戏。&nbsp;注意自我保护，谨防受骗上当。&nbsp;适度游戏益脑，沉迷游戏伤身。&nbsp;合理安排时间，享受健康生活。</p>
+                    </div>
+                </div>
+                <div class="legal-list">
+                    <a href="" class="legal-1" rel="nofollow" target="_blank">互联网文化
+                        <br/>经营单位</a>
+                    <a href="" class="legal-2" rel="nofollow" target="_blank">上海工商行
+                        <br/>政管理局</a>
+                    <a href="" class="legal-3" rel="nofollow" target="_blank">沪公网安备
+                        <br/>31011402004988</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--右浮窗-->
+    <div class="float-menu" id="float-menu">
+        <a href="" class="f-wechat" target="_blank" rel="nofollow" title="关注微信"></a>
+        <a href="kefu.html" class="f-kefu" target="_blank" rel="nofollow" title="客服中心"></a>
+        <a href="javascript:;" class="f-top" rel="nofollow" title="返回顶部"></a>
+    </div>
+
+
+    <script type="text/javascript" src="static/js/ajax.js"></script>
+    <script type="text/javascript" src="static/js/common.js"></script>
+    <script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="static/js/game_center.js"></script>
+</body>
+
+</html>

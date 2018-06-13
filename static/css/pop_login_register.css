@@ -1,0 +1,82 @@
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;} 
+.clearfix{display:inline-block;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+/* Hides from IE-mac \*/
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+/* End hide from IE-mac */ 
+.db { display:block; }
+.dn { display:none; }
+.dib { display:inline-block; }
+.fl { float:left; }
+.fr { float:right; }
+.tac { text-align:center; }
+.mt5 { margin-top:5px; }
+.mt10 { margin-top:10px; }
+.mt15 { margin-top:15px; }
+.mt30 { margin-top:30px; }
+.mt35 { margin-top:35px; }
+.ml5 { margin-left:5px; }
+.ml10 { margin-left:10px; }
+.ml20 { margin-left:20px; }
+.mr5 { margin-right:5px; }
+.mr15 { margin-right:15px; }
+.mr10 { margin-right:10px; }
+.mr20{ margin-right:20px; }
+.mr25{ margin-right:25px; }
+.mr30 { margin-right:30px;}
+.mb1 { margin-bottom: 1px; }
+.mb5 { margin-bottom:5px; }
+.mb10 { margin-bottom:10px; }
+.mb15 { margin-bottom:15px; }
+.mb20 { margin-bottom:20px; }
+.mb25{ margin-bottom:25px; }
+.mb30 { margin-bottom:30px; }
+
+.gray{width:100%; position:absolute;left:0;top:0;z-index:100;background-color:#000; opacity:0.7;filter:alpha(opacity=70);}
+.login_register_box { display: none; width: 458px; padding-bottom: 30px; border-radius: 2px 0 2px 2px; background-color: #fff;}
+.login_register_box  button,input { border: 0 none; }
+.login_register_box label,input,select { vertical-align:middle; }
+.login_register_box ul,ol { list-style:none;}
+.login_register_box em,strong,i { font-style:normal; }
+.v_m_icon { display: inline-block; width: 0; height: 100%; vertical-align: middle; }
+.tab_l_g_list li,.login_register_box .s_close,.login_register_box .login_sm,.login_register_box .qq_login,.tab_l_g_list .btn .icon,.pop_register_box .register_sm{background:url("../img/index/icon_l_g.png")/*tpa=http://static.9377s.com/images/cms_style_2012_new/icon_l_g.png*/ 0 0 no-repeat;}
+.tab_l_g_list li { float: left; width: 228px; height: 48px; border-bottom: 1px solid #dddcdc; background-position: 0 -58px; }
+.tab_l_g_list { height: 65px; }
+.tab_l_g_list .tab_l { border-radius: 2px 0 0 0; }
+.tab_l_g_list .on { height: 57px; border: none; background-position: 0 0; }
+.tab_l_g_list .btn .icon { float: left; width: 26px; height: 26px; overflow: hidden; margin: 4px 10px 0 56px; }
+.tab_l_g_list .btn_l .icon { background-position: -175px -201px; }
+.tab_l_g_list .btn_g .icon { background-position: -202px -201px; }
+.tab_l_g_list .on .btn_l .icon { background-position: -175px -174px; }
+.tab_l_g_list .on .btn_g .icon { background-position: -202px -174px; }
+.tab_l_g_list .bd_icon { height:47px; width: 0; border: 1px solid #dddcdc; }
+.login_register_box .s_close { position:absolute; top: 0; right:-38px; width:38px; height:36px; background-position: -190px -107px;}
+.tab_l_g_list .btn { display: inline-block; width: 218px; height: 40px; line-height:30px; padding: 8px 0 0 10px; font-family: 'microsoft yahei'; font-size: 20px; color: #999999; }
+.tab_l_g_list .on .btn { color: #fff; cursor: default; }
+.tab_l_g_list .btn:hover { text-decoration: none; }
+.l_g_tips{border-bottom:1px solid #f4f4f4; padding:5px 0 12px 0; text-align:center; line-height:33px;}
+.l_g_tips a,.l_g_tips span{display:inline-block; *display:inline; zoom:1; vertical-align:middle;}
+.pop_logo{padding-bottom:2px;}
+.l_g_tips span{color:#999999; padding-left:10px;}
+.l_g_tips em{color:#666; padding:0 5px;} 
+.l_g_tips strong{color:#ffb900; padding-right:5px;} 
+.login_register_box .v_ul_txt span{display: inline-block; width: 14px; height: 14px; overflow: hidden; margin-left: 3px; vertical-align: middle; }
+.login_register_box .v_ul_txt span.normal {  }
+.login_register_box .v_ul_txt span.error { background:url("../img/index/icon_l_g.png")/*tpa=http://static.9377s.com/images/cms_style_2012_new/icon_l_g.png*/ no-repeat -214px -259px; }
+.login_register_box .v_ul_txt span.ok { background:url("../img/index/icon_l_g.png")/*tpa=http://static.9377s.com/images/cms_style_2012_new/icon_l_g.png*/ no-repeat -214px -239px; }
+
+.dialog_tips { height: 40px; line-height: 42px; color: #ff0000; font-size: 14px; margin-left: 104px; }
+.login_register_box .input_txt { width: 270px; height: 40px; line-height: 40px; font-size: 14px; padding: 0 3px; border: 1px solid #c1c1c1; border-radius: 1px; }
+.login_register_box .input_label { display: inline-block; width: 100px; text-align: right; font-size: 14px; color: #535353; }
+.check_auto,.login_register_box .login_sm { margin-left: 95px; }
+.label_check_auto { color: #989898; font-size: 14px; margin-left: 5px; }
+.login_register_box .forget_pwd { color: #4095ce; margin-left: 80px; }
+.login_register_box .login_sm { width: 118px; height: 39px; font-size: 0; line-height: 999px; overflow: hidden; cursor: pointer; background-position: 0 -279px;}
+.login_register_box .login_sm:hover { background-position: 0 -174px; }
+.login_register_box .qq_login { display: inline-block; width: 120px; height: 0; padding-top: 24px; margin-left: 10px; overflow: hidden; background-position: 0 -214px; vertical-align: bottom; }
+.pop_register_box .icon { display: inline-block; color: #ff0000; margin: 0 5px 0 0; font-family: simsun; }
+.pop_register_box .agreement { color: #989898; font-size: 14px; margin-left: 87px; }
+.pop_register_box .label_consent { color: #666; font-size: 14px; margin-left: 10px; }
+.pop_register_box .register_sm { width: 146px; height: 39px; background-position: 0 -239px; cursor: pointer; }
+.pop_register_box .register_sm:hover { background-position: 0 -134px; }

@@ -1,0 +1,217 @@
+.gamecenter-main{
+    background: #F2F2F2;
+}
+.main{
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+#main1 .slide-wrap{
+    position: relative;
+    float: left;
+    width: 872px;
+    height: 355px;
+    overflow: hidden;
+}
+#main1 .description-wrap{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #ffffff;
+}
+#main1 .description-wrap li{
+    position: relative;
+    padding-left: 18px;
+    width: 146px;
+    height: 71px;
+    cursor: pointer;
+    z-index: 3;
+}
+#main1 .description-wrap .active{
+    background-color: #E1405A;
+}
+#main1 .description-wrap .active:before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 25px;
+    display: block;
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 10px solid #E1405A;
+    border-left: 10px solid #E1405A;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg); 	/* IE 9 */
+    -moz-transform:rotate(-45deg); 	/* Firefox */
+    -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-45deg); 	/* Opera */
+}
+#main1 h4{
+    padding-top: 14px;
+    font-size: 14px;
+}
+#main1  .slideimg-wrap{
+
+}
+#main1  .slideimg-wrap li{
+    float: left;
+    display: none;
+}
+#main1  .slideimg-wrap .show{
+    display: block;
+}
+
+
+#main1 .hotgamelist{
+    float: right;
+    width: 252px;
+    height: 355px;
+}
+#main1 .hotgamelist a{
+    display: inline-block;
+}
+#main1 .hotgamelist .title{
+    padding-bottom: 12px;
+}
+#main1 .hotgamelist .title span{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    border-left: 1px solid #e1405a;
+}
+#main1 .gamelist li{
+    height: 40px;
+    padding: 12px 0;
+    border-top: 1px dotted #d5d4d0;
+}
+#main1 .hotgamelist .nums{
+    display: inline-block;
+    float: left;
+    margin: 11px 11px 0 0;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+#main1 .hotgamelist .nums1{
+    background-color: #FF5534;
+}
+#main1 .hotgamelist .nums2{
+    background-color: #FF7A0E;
+}
+#main1 .hotgamelist .nums3{
+    background-color: #FBC44E;
+}
+#main1 .hotgamelist .nums4{
+    background-color: #62C5EA;
+}
+#main1 .hotgamelist .nums5{
+    background-color: #62C5EA;
+}
+#main1 .hotgamelist .img-icon{
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#main1 .hotgamelist img{
+    width: 40px;
+    height: 40px;
+}
+#main1 .hotgamelist .info{
+    width: 75px;
+    float: left;
+    margin: 0 15px;
+}
+.hotgamelist .info a{
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #595757;
+}
+.hotgamelist .info span{
+    margin-top: 6px;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    color: #9fa0a0;
+}
+#main1 .hotgamelist .gamename,
+#main1 .hotgamelist .gamedescription{
+    display: block;
+}
+#main1 .hotgamelist  .rutor-game{
+    width: 74px;
+    height: 22px;
+    margin-top: 7px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 11px;
+    color: #9fa0a0;
+    border: 1px solid #9fa0a0;
+}
+#main1 .hotgamelist  .rutor-game:hover{
+    background-color: #e1405a;
+    border-color: #e1405a;
+    color: #fff !important;
+}
+
+#main2 .hot-game{
+    width: 872px;
+}
+#main2 .hd-title{
+    padding-bottom: 12px;
+}
+#main2 .hd-title span{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    border-left: 1px solid #e1405a;
+    padding-left: 10px;
+    color: #595758;
+}
+#main2 .bd-hotgamelist{
+    margin-right: -13px;
+}
+#main2 .bd-hotgamelist li{
+    margin: 0 13px 24px 0;
+    width: 208px;
+    float: left;
+}
+#main2 .bd-hotgamelist .img{
+    display: block;
+    margin-bottom: 8px;
+}
+#main2 .bd-hotgamelist .game-name{
+    color: #595757;
+    font-size: 14px;
+}
+#main2 .bd-hotgamelist .go{
+    width: 64px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #9fa0a0;
+    text-align: center;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    color: #9fa0a0;
+    float: right;
+}
+#main2 .bd-hotgamelist .go:hover{
+    background-color: #e1405a;
+    border-color: #e1405a;
+    color: #fff !important;
+}
+@media screen and (max-width: 800px) {
+    #main1 .slide-wrap,
+    #main2 .hot-game{
+        width: 664px;
+    }
+}
