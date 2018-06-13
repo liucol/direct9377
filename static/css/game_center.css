@@ -67,6 +67,7 @@
 }
 
 
+
 #main1 .hotgamelist{
     float: right;
     width: 252px;
@@ -164,6 +165,7 @@
 
 #main2 .hot-game{
     width: 872px;
+    float: left;
 }
 #main2 .hd-title{
     padding-bottom: 12px;
@@ -242,9 +244,59 @@
     border-color: #e1405a;
     color: #fff !important;
 }
-@media screen and (max-width: 800px) {
-    #main1 .slide-wrap,
-    #main2 .hot-game{
+#main2 .filter-box{
+    width: 252px;
+    float: right;
+    padding-bottom: 12px;
+}
+#main2 .mod-tit{
+    padding-bottom: 12px;
+}
+#main2 .mod-tit span{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    border-left: 1px solid #e1405a;
+    padding-left: 10px;
+    color: #595758;
+}
+#main2 .filter-item {
+    padding: 8px 0 11px;
+    border-top: 1px dotted #d5d4d0;
+}
+#main2 .filter-item .hd{
+    font-size: 15px;
+    height: 46px;
+    line-height: 46px;
+    color: #9fa0a0;
+}
+#main2 .filter-item .bd{
+    margin-right: -30px;
+}
+#main2 .filter-item .bd a{
+    margin: 0 30px 8px 0;
+    float: left;
+    width: 64px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#main2 .filter-item .bd .active{
+    background-color: #e1405a;
+    color: #fff;
+}
+#main2 .filter-item .bd a:hover{
+    background-color: #e1405a;
+    color: #fff !important;
+}
+#main2  .filter-box a{
+    display: block;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 800px)  {
+    #main1 .slide-wrap{
         width: 664px;
     }
 }
+
