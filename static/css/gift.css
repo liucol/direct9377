@@ -269,6 +269,7 @@
 #content2  #filter-scroll{
     height: 400px;
     overflow-y: auto;
+    margin-bottom: 20px;
 }
 #content2 .filter-box em{
     display: inline-block;
@@ -307,4 +308,8 @@
 #content2  .filter-box .bd a:nth-child(2n){
     width: 107px;
     border-left: 1px solid #d5d4d0;
+}
+#content2 .ad-wp .recom{
+    display: block;
+    margin-top: 15px;
 }
