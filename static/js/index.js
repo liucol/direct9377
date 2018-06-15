@@ -6,7 +6,7 @@
 		$('#slide-box').css('overflow','hidden');
 	}
 // 登录判断
-	var login_save = 1;
+/*	var login_save = 1;
 	$('.login-save').click(function() {
 		var isChk = $(this).find('i').hasClass('icon-cbed');
 		$(this).find('i').toggleClass('icon-cbed');
@@ -52,7 +52,7 @@
 			}
 		});
 		return false;
-	});
+	});*/
 // 热门游戏交互
 	$('#index-hotgame-list li, .hotgame-list li, .newgame-list li').hover(function(){
 		$(this).addClass('active');

@@ -1,0 +1,310 @@
+.gift-main{
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+#content1{
+    position: relative;
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-bottom: 3px solid #ebeaea;
+}
+#content1 .gift-recom{
+    width: 872px;
+}
+#content1 .gift-recom .item{
+     float: left;
+ }
+#content1 .gift-recom .item img{
+    transition: all .4s ease;
+}
+#content1 .gift-recom .item:hover img{
+    transform: scale(1.1);
+}
+#content1 .gift-recom .item1{
+    position: relative;
+    margin-right: 14px;
+    width: 340px;
+    height: 375px;
+}
+#content1 .item a{
+    display: block;
+    overflow: hidden;
+}
+#content1 .item .c{
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    z-index: 2;
+    background: url("../img/gift_csp.png");
+}
+#content1 .item1 .c-red-large{
+    width: 50px;
+    height: 50px;
+    font-size: 19px;
+    text-indent: 4px;
+    background-position:  0 -469px;
+}
+#content1 .gift-recom .item2{
+    margin-bottom: 15px;
+    width: 518px;
+    height: 180px;
+}
+#content1 .gift-recom .item3{
+    margin-right: 14px;
+}
+#content1 .item3 .c-green{
+    width: 42px;
+    height: 42px;
+    font-size: 15px;
+    text-indent: 4px;
+    font-weight: bold;
+    color: #fff;
+    background-position:  0 -528px;
+}
+#content1 .hotgift-wp{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 252px;
+}
+#content1 .hotgift-list{
+    width: 252px;
+    height: 343px;
+    overflow: hidden;
+}
+#content1 .mod-tit{
+    margin-bottom: 18px;
+}
+#content1 .mod-tit span{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    border-left: 1px solid #e1405a;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #595757;
+}
+#content1 .slide-bd{
+   /* width: 504px;*/
+}
+#content1 .slide-item{
+    display: none;
+    float: left;
+    width: 252px;
+}
+#content1 .slide-bd .active{
+    display: block;
+}
+#content1 .slide-item .item{
+    height: 40px;
+    padding: 12px 0;
+    color: #9fa0a0;
+    overflow: hidden;
+    border-top: 1px dotted #d5d4d0;
+}
+#content1 .slide-item .img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#content1 .slide-item .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#content1 .slide-item .info{
+    float: left;
+    margin: 0 15px;
+}
+#content1 .slide-item .info p{
+    height: 20px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #595757;
+}
+#content1 .slide-item .info span{
+    display: block;
+    height: 20px;
+    line-height: 23px;
+}
+#content1 .slide-item .fr{
+    float: right;
+}
+#content1 .slide-item .fr .sur{
+    text-align: right;
+    height: 20px;
+    line-height: 12px;
+}
+.slide-item .fr .sur em{
+    color: #e1405a;
+}
+#content1 .slide-item .fr .go{
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #9fa0a0;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #9fa0a0;
+    float: left;
+}
+#content1 .slide-item .fr .go:hover{
+    color: #fff !important;
+    background-color: #e1405a;
+    border-color: #e1405a;
+}
+#content1 .slide-fd p{
+    text-align: center;
+}
+#content1 .slide-fd .b{
+    display: inline-block;
+    margin: 0 4px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #9FA0A0;
+}
+#content1 .slide-fd .active{
+   background-color: #E1405A;
+}
+
+
+#content2{
+    padding: 25px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#content2 .hotgame-list{
+    width: 872px;
+    float: left;
+}
+#content2 .hd{
+    vertical-align: top;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #595757;
+}
+#content2 .hd span{
+    padding-left: 10px;
+    border-left: 1px solid #e1405a;
+    font-size: 16px;
+}
+.btn-giftrec{
+    background: url("../img/gift_csp.png") no-repeat;
+    background-position: 0 0;
+    padding-left: 20px;
+    margin: 0 8px 0 39px;
+    line-height: 16px;
+    color: #6c6;
+}
+#content2  .bd ul{
+    margin-right: -17px;
+}
+#content2  .bd li{
+    float: left;
+    margin: 0 11px 17px 0;
+    width: 208px;
+    border: 1px solid #d5d4d0;
+}
+#content2  .bd li:hover img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#content2  .bd li:hover{
+    border-color: #e1405a;
+}
+#content2  .bd .img{
+    display: block;
+    overflow: hidden;
+}
+#content2  .bd li img{
+    transition: all .4s ease;
+}
+#content2 .info{
+    height: 20px;
+    padding: 7px 10px;
+}
+#content2 .info .name{
+    font-size: 14px;
+    line-height: 18px;
+}
+#content2 .info .go{
+    float: right;
+    width: 56px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #4dd589;
+    color: #fff !important;
+}
+
+#content2 .filter-wp{
+    float: right;
+    width: 252px;
+}
+#content2 .mod-tit{
+    display: inline-block;
+    vertical-align: top;
+    height: 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #595757;
+}
+#content2 .mod-tit span{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    border-left: 1px solid #e1405a;
+    padding-left: 10px;
+}
+#content2  #filter-scroll{
+    height: 400px;
+    overflow-y: auto;
+}
+#content2 .filter-box em{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+#content2 .filter-box .tag-c{
+    background: #42d7dc;
+}
+#content2 .filter-box .tag-d{
+    background: #66CC66;
+}
+#content2 .filter-box .tag-g{
+    background: #FF5534;
+}
+#content2 .filter-box .tag-h{
+    background: #D56FC5;
+}
+#content2 .filter-box .bd{
+    float: left;
+    width: 220px;
+}
+#content2 .filter-box .bd a{
+    display: inline-block;
+    width: 108px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#content2  .filter-box .bd a:nth-child(2n){
+    width: 107px;
+    border-left: 1px solid #d5d4d0;
+}
